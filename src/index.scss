@@ -1,0 +1,199 @@
+html, body {
+  height: 100%;
+}
+#app {
+  margin: 0 auto;
+  height: 100%;
+}
+.app-bar {
+  top: auto !important;
+    bottom: 0 !important;
+}
+.passenger-list-wrapper {
+  margin-top: 10px;
+  .passenger-header {
+      display: flex;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      h5 {
+          flex: 1;
+      }
+      .back-button {
+          margin-right: 10px;
+      }
+  }
+  .filter {
+    padding: 0 10px;
+  }
+}
+.page-wrapper {
+  padding-bottom: 90px;
+  padding-top: 20px;
+}
+.p-0 {
+  padding: 0px;
+}
+.logout-btn {
+  button {
+    background-color: #e0e0e0 !important;
+    color: #000 !important;
+    margin-left: 10px;
+    div {
+      display: none !important;
+    }
+    span {
+      padding: 10px !important;
+    }
+  }
+}
+.MuiContainer-root {
+  max-width: 850px;
+}
+.app-title {
+  flex-grow: 1;
+}
+nav {
+  padding: 20px 0 20px 0;
+}
+.cursor {
+  cursor: pointer;
+}
+.flight {
+  display: flex;
+    justify-content: space-around;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.flight-wrapper {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.passenger-list {
+  width: 77%;
+}
+.flight-seats {
+  width: 22%;  
+  margin-top: 15px;
+  h6 {
+    text-align: center;
+  }
+}
+.seat-map {
+  border: 1px solid;
+}
+.seat-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  &>div{
+    text-align: center;
+    p {
+      font-weight: bold;
+    }
+  }
+}
+
+.seat {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ddd;
+  margin: 4px;
+  display: inline-block;
+  text-align: center;
+  background: #efefef;
+  cursor: pointer;
+}
+.seat.selected {
+  border: 1px solid #000;
+  box-shadow: 0px 0px 5px #282525;
+}
+.seat-map .seat:nth-child(4n + 2) {
+  margin-right: 35px;
+}
+.seat.checked-in {
+  background: #baffba;
+}
+.seat.special-meal {
+  background: #baffff;
+}
+.seat.disabled-seat {
+  opacity: 0.3;
+  cursor: none;
+}
+.table {
+  thead tr {
+    font-weight: 800;
+  }
+  tbody {
+    tr {
+      &:hover {
+        background-color: #e9e7e7;
+      }
+      &.selected, &.selected:hover {
+        background: #cac3c3;
+      }
+    }
+  }
+} 
+.cursor {
+  cursor: pointer;
+}
+.flight-details {
+  display: flex;
+    background: #dcd7ff;
+    justify-content: space-between;
+    padding: 10px;
+}
+.flight-details p {
+  margin: 0px;
+}
+.change-seat-popup {
+  width: 500px;
+  height: 200px;
+  padding: 40px;
+  position: absolute;
+  left: calc(50% - 150px);
+  top: calc(50% - 90px);
+  display: none;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 5px #000000;
+}
+.cilent-option {
+  position: absolute;
+  width: 150px;
+  height: auto;
+}
+.hidden {
+  display: none;
+}
+.block {
+  display: block;
+}
+.optionPopup {
+  position: absolute;
+  background: #fff;
+  z-index: 10;
+  box-shadow: 0px 0px 5px #282525;
+  display: none;
+}
+.optionPopup.show{
+  display: block;
+}
+.modal-header {
+  padding: 0;
+  h2 {
+    font-size: 20px;
+  }
+}
+.modal-body {
+  padding: 0;
+  height: 392px;
+  overflow: auto;
+}
+.modal-footer {
+  padding: 10px 0;
+}

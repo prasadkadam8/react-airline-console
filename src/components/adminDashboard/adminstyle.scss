@@ -1,0 +1,40 @@
+.services-wrapper {
+    display: flex;
+    .update-section {        
+        padding: 10px;
+        flex: 1;
+        &:not(:last-child) {
+            border-right: 1px solid #ccc;
+        }
+        .MuiFab-root {
+            width: 35px;
+            height: 30px;
+            vertical-align: bottom;
+        }
+        ul {
+            padding-left: 13px;
+            margin-top: 15px;
+            overflow: auto;
+            height: 293px;
+            li {
+                height: 25px;
+                .MuiSvgIcon-root {
+                    float: right;
+                    font-size: 17px;
+                    cursor: pointer;
+                } 
+
+            }
+        }
+    }
+}
+.passenger-form {
+    margin-top: 20px;
+    .form-group {
+        display: flex;
+        .MuiFormControl-root {
+            flex: 1;
+            margin-right: 20px;
+        }
+    }
+}
