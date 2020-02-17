@@ -15,7 +15,7 @@
 
 ## Steps to explore admin side of the application
 1. login with admin user as you updated in mockdata.js
-2. You can see flight list > Click on <Select> to manage that flight.
+2. You can see flight list > Click on "Select" to manage that flight.
 3. On "Manage Flight Details" page
     - you can see flight fetails
     - update flight details
@@ -25,7 +25,7 @@
 
 ## Steps to explore Staff side of the application
 1. login with Staff user as you updated in mockData.js
-2. You can see flight list > Click on <Checkin Services> to manage checkin functions.
+2. You can see flight list > Click on "Checkin Services" to manage checkin functions.
 
 ## "Flight Checkin Service"
 1. On "Flight Checkin Service" page
