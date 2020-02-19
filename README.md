@@ -3,7 +3,7 @@
 ## Step to run application:
 1. Extract zip file
 2. Install npm: npm install
-3. Setup User roles as per steps given below
+3. Setup User roles as per steps given below then start the application
 4. Run npm:- npm start
 
 
