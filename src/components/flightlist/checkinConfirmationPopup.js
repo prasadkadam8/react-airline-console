@@ -12,7 +12,7 @@ const CheckinConfirmationPopup = ({
             {(() => {
                 switch (checkinAction) {
                     case "checkin": return (<p>Do you want to check-in for this passenger?</p>);
-                    case "checkout": return (<p>Do you want to check-out for this passenger?</p>);
+                    case "checkout": return (<p>Do you want to undo check-in for this passenger?</p>);
                     case "changeSeat": return (<p>Do you want to change seat for this passenger?</p>);
                     default: return "";
                 }
